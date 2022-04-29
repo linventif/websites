@@ -43,7 +43,7 @@ body {
 }
 
 #footer_content {
-    background-color:#5687c2; 
+    background-color:#77a0d3; 
     padding: 10px;
     border-radius: 10px;
 }
@@ -86,7 +86,7 @@ body {
 /* - - - - - - - - - - - - - - - - - */
 
 .title {
-    background-color:#5687c2; 
+    background-color:#77a0d3; 
     border-radius: 0px 0px 10px 10px;
     margin-top: 0%;
     height: auto;
@@ -116,6 +116,7 @@ body {
     filter: invert(0.2);
 }
 
+
 /* - - - - - - - - - - - - - - - - - */
 
 .button {
@@ -140,3 +141,5 @@ input[type='image'] {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+/* - - - - - - - - - - - - - - - - - */
