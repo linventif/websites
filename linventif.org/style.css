@@ -17,18 +17,52 @@ body {
     margin-bottom: 30px;
     border-radius: 20px;
     background-color:#42474d;
+    padding: 20px;
 }
 
 #nav_content {
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center; 
     margin: auto;
+
+    background-color:#77a0d3; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nav_content #button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 82%;
+    margin-top: 1em;
+}
+
+#nav_content #button a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav_content #button a:hover{
+    color: #42474d;
+}
+
+#links {
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: right; 
+
 }
 
 #nav_content .button {
     width: 90%;
+}
+
+#nav_content .button a:hover {    
+    -webkit-filter: invert(1);
+    filter: invert(0.3);
 }
 
 /* - - - - - - - - - - - - - - - - - */
@@ -48,16 +82,50 @@ body {
     border-radius: 10px;
 }
 
-/* - - - - - - - - - - - - - - - - - */
-
-#grid {
-    width: 100%;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 30px;
-	grid-auto-rows: minmax(auto, auto);  
+#footer_content .button a:hover {
+    border-color: #42474d;
 }
 
+#footer_content .button a {
+    border: solid 3px;
+    border-color: #77a0d3; 
+}
+
+/* - - - - - - - - - - - - - - - - - */
+
+
+@media screen and (max-width: 1000px)
+{
+    #grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        grid-auto-rows: minmax(auto, auto);  
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1990px)
+{
+    #grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        grid-auto-rows: minmax(auto, auto);  
+    }
+}
+
+@media screen and (min-width: 2000px)
+{
+    #grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        grid-auto-rows: minmax(auto, auto);  
+    }
+}
 
 
 /* - - - - - - - - - - - - - - - - - */
@@ -110,10 +178,9 @@ body {
     margin-right: 1em;
 }
 
-.title .button a:hover {
-    
+.title .button a:hover {    
     -webkit-filter: invert(1);
-    filter: invert(0.2);
+    filter: invert(0.3);
 }
 
 
@@ -136,10 +203,11 @@ input[type='image'] {
 
 .button a {
     align-items: center;
-    border-radius: 8px;
     padding-bottom: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
+    border-radius: 8px;
 }
+
 
 /* - - - - - - - - - - - - - - - - - */
