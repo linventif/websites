@@ -8,7 +8,7 @@ body {
     margin: auto;
     width: 88%;
 }
-
+ 
 /* - - - - - - - - - - - - - - - - - */
 
 #nav {
@@ -42,6 +42,14 @@ body {
 #nav_content #button a{
     text-decoration: none;
     color: black;
+}
+
+#nav_content #button .barre{
+    text-decoration: line-through;
+}
+
+#nav_content #button .color{
+    color: white;
 }
 
 #nav_content #button a:hover{
@@ -170,7 +178,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    text-align: left;
+    align-items: center; 
 }
 
 .title .button {
