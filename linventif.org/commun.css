@@ -36,7 +36,6 @@ body {
     justify-content: space-around;
     align-items: center; 
     width: 82%;
-    margin-top: 1em;
 }
 
 #nav_content #button a{
@@ -56,6 +55,9 @@ body {
     color: #42474d;
 }
 
+#linventif {
+    font-size: 120%;
+}
 #links {
     width: 18%;
     display: flex;
@@ -179,6 +181,12 @@ body {
     vertical-align: middle;
     line-height: normal;
     align-items: center; 
+}
+
+
+.link_title {
+    text-decoration: none;
+    color: black;
 }
 
 .title .button {
