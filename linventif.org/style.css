@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color:#2c2f33;
+    background-color:#22272e;
     font-family: Calibri;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,10 @@ body {
     display: flex;
     justify-content: space-between;
     border-radius: 0px 0px 10px 10px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .nav a {    
