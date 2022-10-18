@@ -69,6 +69,69 @@ nav h1:hover {
 }
 
 main {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    width: 60%;
+    margin-left: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#test {
+    width: 290px;
+    height: 250px;
+    background-color: #433f5e;
+    border-radius: 20px;
+    color: rgb(0, 38, 255);
+    border: #433f5e 5px solid;
+    transition-duration: 600ms;
+}
+
+#test:hover {
+    translate: 0px -20px;
+}
+
+.addons {
+    width: 3000px;
+    height: 200px;
+    background-color: #f37f5e;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addons .info {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    width: 230px;
+    background-color: #43ff5e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    background-color: #433f5e;
+    color: white;
+    border-radius: 8px;
+    transition-duration: 600ms;
+}
+
+.button:hover {
+    background-color: #12a6ac;
+}
+
+.fab, .fas {
+    margin-top: 20%;
 }
