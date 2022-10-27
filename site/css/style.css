@@ -13,13 +13,14 @@ header {
     margin: 0%;
     padding: 0%;
     background-color: #433f5e;
+    border-bottom: 1px solid white;
 }
 
 footer {
+    border-top: 1px solid white;
     margin: 0%;
     padding: 0%;
     background-color: #433f5e;
-    position: absolute;
     width: 100%;
     bottom: 0;
     display: flex;
@@ -69,6 +70,7 @@ nav h1:hover {
 }
 
 main {
+    display: grid;
     margin-top: 300px;
     margin-bottom: 300px;
     width: 60%;
@@ -78,27 +80,19 @@ main {
     flex-direction: row;
 }
 
-#test {
-    width: 290px;
-    height: 250px;
-    background-color: #433f5e;
-    border-radius: 20px;
-    color: rgb(0, 38, 255);
-    border: #433f5e 5px solid;
-    transition-duration: 600ms;
-}
-
-#test:hover {
-    translate: 0px -20px;
-}
-
 .addons {
-    width: 3000px;
-    height: 200px;
-    background-color: #f37f5e;
+    width: 800px;
+    height: 600px;
+    background-color: #433f5e;
+    border-radius: 14px;
+    padding: 30px;
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addon_info {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -113,7 +107,6 @@ main {
 
 .buttons {
     width: 230px;
-    background-color: #43ff5e;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,16 +115,44 @@ main {
 .button {
     width: 60px;
     height: 60px;
-    background-color: #433f5e;
+    background-color: #5e588a;
     color: white;
     border-radius: 8px;
     transition-duration: 600ms;
 }
 
 .button:hover {
-    background-color: #12a6ac;
+    background-color:#749fc2;
 }
 
 .fab, .fas {
     margin-top: 20%;
 }
+
+
+/*
+.grid-container {
+    margin-top: 400px;
+    margin-bottom: 400px;
+    display: inline-grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    background-color: #433f5e;
+    border-radius: 14px;
+    padding: 60px;
+    cursor: pointer;
+    transition-duration: 600ms;
+    font-size: 200px;
+    text-align: center;
+}
+
+.grid-item:hover {
+    translate: 0px -15px;
+    background-color: #514a7e;
+}
+*/
