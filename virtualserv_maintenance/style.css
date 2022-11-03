@@ -1,0 +1,45 @@
+body {
+    color: white;
+    background-color:#222736;
+    font-family: Calibri;
+    font-size: 110%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+#content {
+    background-color: #30364d;
+    box-shadow: 0 0 15px #aabcff;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 16px;
+}
+
+#undraw {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+}
+
+input[type='image'] {
+    width: 250px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#content p {
+    font-size: 1.5em;
+}
