@@ -13,11 +13,11 @@ header {
     margin: 0%;
     padding: 0%;
     background-color: #433f5e;
-    border-bottom: 1px solid white;
+    /*border-bottom: 2px solid #ff0000;*/
 }
 
 footer {
-    border-top: 1px solid white;
+    /*border-top: 2px solid #ff0000;*/
     margin: 0%;
     padding: 0%;
     background-color: #433f5e;
@@ -85,7 +85,7 @@ main {
     height: 600px;
     background-color: #433f5e;
     border-radius: 14px;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -99,20 +99,20 @@ main {
 
 .addons .info {
     display: flex;
-    width: 60%;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .buttons {
-    width: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .button {
+    margin-left: 20px;
     width: 60px;
     height: 60px;
     background-color: #5e588a;
@@ -130,13 +130,14 @@ main {
 }
 
 
-/*
+
 .grid-container {
     margin-top: 400px;
     margin-bottom: 400px;
     display: inline-grid;
     gap: 40px;
     grid-template-columns: auto auto auto auto auto;
+    grid-column: 5;
     justify-content: center;
     align-items: center;
 }
@@ -149,10 +150,24 @@ main {
     transition-duration: 600ms;
     font-size: 200px;
     text-align: center;
+    box-shadow: 0 0 15px #ff0000;
 }
 
 .grid-item:hover {
     translate: 0px -15px;
     background-color: #514a7e;
+    box-shadow: 0 0 15px #aaacff;
 }
-*/
+
+#bluf {
+    font-size: 200px;
+    text-align: center;
+    color: #ff0000;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+#dble {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
