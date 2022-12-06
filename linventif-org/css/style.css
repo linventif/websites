@@ -1,8 +1,9 @@
 body {
     color: white;
-    background-color:#2b2a33;
+    background-color:#242335;
+    /*font = Default font*/
     font-family: 'Trebuchet MS', sans-serif;
-    font-size: 110%;
+    font-size: 100%;
     text-align: center;
     margin: 0%;
     padding: 0%;
@@ -33,9 +34,13 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 70px;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.showel {
+    margin-bottom: 150px;
 }
 
 footer nav {
@@ -52,8 +57,7 @@ footer .footer-text {
 
 h1 {
     color: white;
-    font-family: Calibri;
-    font-size: 200%;
+    font-size: 180%;
     text-align: center;
     letter-spacing: 0.04em;
     margin: 0%;
@@ -71,13 +75,24 @@ nav h1:hover {
 
 main {
     display: grid;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    width: 60%;
-    margin-left: 20%;
+    margin-top: 150px;
+    margin-bottom: 100;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cntref {
+    text-decoration: none;
+    color: white;
+}
+
+.cntref:hover {
+    color: #aeceff;
 }
 
 .addons {
@@ -89,6 +104,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.imgcnt {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .addon_info {
